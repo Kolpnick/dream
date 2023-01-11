@@ -23,6 +23,7 @@ from common.sport import (
 from common.travel import TRAVELLING_TEMPLATE, HAVE_YOU_BEEN_TEMPLATE, I_HAVE_BEEN_TEMPLATE
 from common.weather import WEATHER_COMPILED_PATTERN
 from common.bot_persona import YOUR_FAVORITE_COMPILED_PATTERN
+from common.travel_italy import ITALY_PATTERN
 
 SKILL_TRIGGERS = {
     "dff_user_kg_skill": {
@@ -161,6 +162,20 @@ SKILL_TRIGGERS = {
         "previous_bot_patterns": [],
         "detected_topics": [],
         "intents": ["tell_me_a_story"],
+    },
+    "dff_travel_italy_skill": {
+    "compiled_patterns": [ITALY_PATTERN],
+    "previous_bot_patterns": [ITALY_PATTERN],
+    "detected_topics": [
+        "Entertainment_Italy_Travel",
+        "Entertainment_General",
+        "Travel_Geo",
+        "Italy_Travel",
+        "Art_Event",
+        "Entertainment",
+        "Fashion",
+    ],
+    "intents": [],
     },
 }
 

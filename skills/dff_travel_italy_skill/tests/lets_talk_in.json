@@ -1,0 +1,593 @@
+{
+    "human_utter_index_batch": [
+        0
+    ],
+    "dialog_batch": [
+        {
+            "human_utterances": [
+                {
+                    "text": "hi1 italy.",
+                    "annotations": {
+                        "spelling_preprocessing": "hi1 italy",
+                        "asr": {
+                            "asr_confidence": "undefined"
+                        },
+                        "rake_keywords": [],
+                        "sentseg": {
+                            "punct_sent": "hi1 italy.",
+                            "segments": [
+                                "hi1 italy."
+                            ]
+                        },
+                        "badlisted_words": {
+                            "bad_words": false
+                        },
+                        "spacy_nounphrases": [
+                            "hi1 italy"
+                        ],
+                        "combined_classification": {
+                            "cobot_dialogact_intents": {
+                                "Information_DeliveryIntent": 0.6858131289482117
+                            },
+                            "cobot_dialogact_topics": {
+                                "Other": 0.7974789142608643
+                            },
+                            "cobot_topics": {
+                                "Art_Event": 0.8309589624404907
+                            },
+                            "emotion_classification": {
+                                "neutral": 0.9976741671562195
+                            },
+                            "factoid_classification": {
+                                "is_factoid": 0.9497109651565552
+                            },
+                            "sentiment_classification": {
+                                "neutral": 0.9183422923088074
+                            },
+                            "toxic_classification": {
+                                "not_toxic": 0.9999966621398926
+                            }
+                        },
+                        "relative_persona_extractor": {
+                            "max_similarity": 0.4758314788341522,
+                            "persona": [
+                                "My name is Dream.",
+                                "I like Italian food especially pasta and pizza.",
+                                "I am a chatbot."
+                            ]
+                        },
+                        "topic_recommendation": [
+                            "dff_movie_skill",
+                            "dff_travel_skill",
+                            "dff_music_skill"
+                        ],
+                        "entity_detection": {
+                            "entities": [
+                                "hi1",
+                                "italy"
+                            ],
+                            "labelled_entities": [
+                                {
+                                    "finegrained_label": [
+                                        [
+                                            "product",
+                                            0.511
+                                        ],
+                                        [
+                                            "business",
+                                            0.205
+                                        ]
+                                    ],
+                                    "label": "product",
+                                    "offsets": [
+                                        0,
+                                        3
+                                    ],
+                                    "text": "hi1"
+                                },
+                                {
+                                    "finegrained_label": [
+                                        [
+                                            "country",
+                                            0.562
+                                        ]
+                                    ],
+                                    "label": "location",
+                                    "offsets": [
+                                        4,
+                                        9
+                                    ],
+                                    "text": "italy"
+                                }
+                            ]
+                        },
+                        "ner": [
+                            [
+                                {
+                                    "confidence": 1,
+                                    "end_pos": 2,
+                                    "start_pos": 1,
+                                    "text": "italy",
+                                    "type": "LOC"
+                                }
+                            ]
+                        ],
+                        "intent_catcher": {
+                            "cant_do": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "choose_topic": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "doing_well": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "dont_understand": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "exit": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "lets_chat_about": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "no": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "opinion_request": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "repeat": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "stupid": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "tell_me_a_story": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "tell_me_more": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "topic_switching": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "weather_forecast_intent": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "what_are_you_talking_about": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "what_can_you_do": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "what_is_your_job": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "what_is_your_name": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "what_time": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "where_are_you_from": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "who_made_you": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            },
+                            "yes": {
+                                "confidence": 0.0,
+                                "detected": 0
+                            }
+                        },
+                        "midas_classification": [
+                            {
+                                "appreciation": 0.0018177524907514453,
+                                "command": 0.013137494213879108,
+                                "comment": 0.002740488387644291,
+                                "complaint": 0.0028872997500002384,
+                                "dev_command": 0.005909691099077463,
+                                "neg_answer": 0.0014842289965599775,
+                                "open_question_factual": 0.004388600587844849,
+                                "open_question_opinion": 0.001805962878279388,
+                                "opinion": 0.13497237861156464,
+                                "other_answers": 0.0015286557609215379,
+                                "pos_answer": 0.0029031012672930956,
+                                "statement": 0.8241255879402161,
+                                "yes_no_question": 0.0022987399715930223
+                            }
+                        ],
+                        "sentrewrite": {
+                            "clusters": [],
+                            "modified_sents": [
+                                "hi1 italy."
+                            ]
+                        },
+                        "midas_predictor": {
+                            "comment": 0.1578786216398964,
+                            "opinion": 0.30365002615363024,
+                            "pos_answer": 0.10622201242616383,
+                            "statement": 0.35850886033961443,
+                            "yes_no_question": 0.07374047944069505
+                        },
+                        "conceptnet": {
+                            "hi1": {
+                                "SymbolOf": [
+                                    "islam",
+                                    "peace",
+                                    "japan"
+                                ],
+                                "HasProperty": [
+                                    "dead",
+                                    "good than 2",
+                                    "good"
+                                ],
+                                "Causes": [
+                                    "global thermonuclear war",
+                                    "death",
+                                    "war"
+                                ],
+                                "CausesDesire": [
+                                    "fly kite",
+                                    "play game",
+                                    "compete"
+                                ]
+                            },
+                            "italy": {
+                                "SymbolOf": [
+                                    "italy",
+                                    "greece",
+                                    "india"
+                                ],
+                                "HasProperty": [
+                                    "south of italy",
+                                    "famous for their music",
+                                    "famous for it cheese"
+                                ],
+                                "Causes": [
+                                    "person to be happy",
+                                    "person to learn",
+                                    "person to be poor"
+                                ],
+                                "CausesDesire": [
+                                    "travel",
+                                    "visit friend",
+                                    "attend university"
+                                ]
+                            }
+                        },
+                        "news_api_annotator": [
+                            {
+                                "entity": "all",
+                                "news": {
+                                    "content": "AALTEN, The Netherlands \u2014 Erik Luiten seems an unlikely person to be fighting a conspiracy to destroy Western society.\nThe tall, affable and soft-spoken man is more likely found tending to 150 dairy cows at his farm in the windswept green flatness of... [2123 chars]",
+                                    "description": "AALTEN, The Netherlands \u2014 Erik Luiten seems an unlikely person to be fighting a conspiracy to destroy Western society.",
+                                    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2022-12/221205-netherlands-farming-mb-0847-47e459.jpg",
+                                    "publishedAt": "2022-12-12T10:25:29Z",
+                                    "source": {
+                                        "name": "NBC News",
+                                        "url": "https://www.nbcnews.com"
+                                    },
+                                    "title": "How Dutch farmers became the center of a global right-wing culture war",
+                                    "url": "https://www.nbcnews.com/news/world/dutch-farmers-emissions-global-right-wing-culture-war-rcna60269"
+                                },
+                                "which": "all"
+                            },
+                            {
+                                "entity": "italy",
+                                "news": {
+                                    "content": "The infectious laugh, the Latin intonation with an Italian accent that comes from her husband (the artist Marco Perego), Zoe Saldana is experiencing a Hollywood period full of commitments both as an actress and as a producer. The first result arrives... [3528 chars]",
+                                    "description": "The infectious laugh, the Latin intonation with an Italian accent that comes from her husband (the artist Marco Perego), Zoe Saldana is experiencing a Hollywood period full of commitments both as an actress and as a producer.",
+                                    "image": "https://www.repstatic.it/content/contenthub/img/2022/12/06/164750759-cb3174c5-0af4-4f51-ad60-96ee8b8a25d5.jpg",
+                                    "publishedAt": "2022-12-12T08:59:27Z",
+                                    "source": {
+                                        "name": "Spark Chronicles",
+                                        "url": "https://sparkchronicles.com"
+                                    },
+                                    "title": "\"By marrying an Italian I married your culture, warmth, Italy is a second home\" SparkChronicles",
+                                    "url": "https://sparkchronicles.com/zoe-saldana-by-marrying-an-italian-i-married-your-culture-warmth-italy-is-a-second-home/"
+                                },
+                                "which": "human"
+                            }
+                        ],
+                        "entity_linking": [
+                            {
+                                "confidences": [
+                                    0.0
+                                ],
+                                "dbpedia_types": [
+                                    []
+                                ],
+                                "entity_ids": [
+                                    "not in wiki"
+                                ],
+                                "entity_substr": "hi1",
+                                "first_paragraphs": [
+                                    ""
+                                ],
+                                "pages_titles": [
+                                    ""
+                                ],
+                                "tokens_match_conf": [
+                                    0.0
+                                ]
+                            },
+                            {
+                                "confidences": [
+                                    90.0,
+                                    38.0,
+                                    23.0,
+                                    20.0,
+                                    12.0
+                                ],
+                                "dbpedia_types": [
+                                    [
+                                        "http://dbpedia.org/ontology/Country",
+                                        "http://dbpedia.org/ontology/Location",
+                                        "http://dbpedia.org/ontology/Place",
+                                        "http://dbpedia.org/ontology/PopulatedPlace"
+                                    ],
+                                    [
+                                        "http://dbpedia.org/ontology/Country",
+                                        "http://dbpedia.org/ontology/Location",
+                                        "http://dbpedia.org/ontology/Place",
+                                        "http://dbpedia.org/ontology/PopulatedPlace"
+                                    ],
+                                    [
+                                        "http://dbpedia.org/ontology/Country",
+                                        "http://dbpedia.org/ontology/Location",
+                                        "http://dbpedia.org/ontology/Place",
+                                        "http://dbpedia.org/ontology/PopulatedPlace"
+                                    ],
+                                    [
+                                        "http://dbpedia.org/ontology/AdministrativeRegion",
+                                        "http://dbpedia.org/ontology/Location",
+                                        "http://dbpedia.org/ontology/Place",
+                                        "http://dbpedia.org/ontology/PopulatedPlace",
+                                        "http://dbpedia.org/ontology/Region"
+                                    ],
+                                    [
+                                        "http://dbpedia.org/ontology/Country",
+                                        "http://dbpedia.org/ontology/Location",
+                                        "http://dbpedia.org/ontology/Place",
+                                        "http://dbpedia.org/ontology/PopulatedPlace"
+                                    ]
+                                ],
+                                "entity_ids": [
+                                    "Q38",
+                                    "Q172579",
+                                    "Q223936",
+                                    "Q838931",
+                                    "Q48742118"
+                                ],
+                                "entity_substr": "italy",
+                                "first_paragraphs": [
+                                    "Italy officially the Italian Republic or Republic of Italy is a country consisting of a peninsula delimited by the Alps and several islands surrounding it, whose territory largely coincides with the homonymous geographical region. Italy is located in the middle of the Mediterranean Sea, in Southern Europe; it is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital and largest city, the country covers a total area of and shares land borders with France, Switzerland, Austria, Slovenia, as well as the enclaved microstates of Vatican City and San Marino. Italy has a territorial exclave in Switzerland, Campione. With over 60 million inhabitants, Italy is the third-most populous member state of the European Union.",
+                                    "The Kingdom of Italy was a state that existed from 1861\u2014when King Victor Emmanuel II of Sardinia was proclaimed King of Italy\u2014until 1946, when civil discontent led an institutional referendum to abandon the monarchy and form the modern Italian Republic. The state was founded as a result of the Risorgimento under the influence of the Savoy-led Kingdom of Sardinia, which can be considered its legal predecessor state.",
+                                    "The Kingdom of Italy (1805\u20131814; ) was a kingdom in Northern Italy (formerly the Italian Republic) in personal union with France under Napoleon I. It was fully influenced by revolutionary France and ended with Napoleons defeat and fall. Its government was assumed by Napoleon as King of Italy and the viceroyalty delegated to his step-son Eug\u00e8ne de Beauharnais. It covered Savoy and the modern provinces of Lombardy, Veneto, Emilia-Romagna, Friuli Venezia Giulia, Trentino, South Tyrol, and Marche. Napoleon I also ruled the rest of northern and central Italy in the form of Nice, Aosta, Piedmont, Liguria, Tuscany, Umbria, and Lazio, but directly as part of the French Empire, rather than as part of a vassal state.",
+                                    "The Kingdom of Italy ( or Regnum Italicum; ), also called Imperial Italy, was one of the constituent kingdoms of the Holy Roman Empire, along with the kingdoms of Germany, Bohemia, and Burgundy. It comprised most of northern and central Italy. Its original capital was Pavia until the 11th century.",
+                                    "The Kingdom of Italy was governed by the National Fascist Party from 1922 to 1943 with Benito Mussolini as prime minister. The Italian Fascists imposed authoritarian rule and crushed political and intellectual opposition, while promoting economic modernization, traditional social values and a rapprochement with the Roman Catholic Church. According to Payne (1996), \"[the] Fascist government passed through several relatively distinct phases\". The first phase (1922\u20131925) was nominally a continuation of the parliamentary system, albeit with a \"legally-organized executive dictatorship\". The second phase (1925\u20131929) was \"the construction of the Fascist dictatorship proper\". The third phase (1929\u20131934) was with less interventionism in foreign policy. The fourth phase (1935\u20131940) was characterized by an aggressive foreign policy: the Second Italo-Ethiopian War, which was launched from Eritrea and Somaliland; confrontations with the League of Nations, leading to sanctions; growing economic autarky; invasion of Albania; and the signing of the Pact of Steel. The fifth phase (1940\u20131943) was World War II itself which ended in military defeat, while the sixth and final phase (1943\u20131945) was the rump Sal\u00f2 Government under German control."
+                                ],
+                                "pages_titles": [
+                                    "Italy",
+                                    "Kingdom of Italy",
+                                    "Kingdom of Italy (Napoleonic)",
+                                    "Kingdom of Italy (Holy Roman Empire)",
+                                    "Fascist Italy (1922\u20131943)"
+                                ],
+                                "tokens_match_conf": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        ],
+                        "fact_random": {
+                            "facts": [],
+                            "response": "hi1 italy."
+                        },
+                        "wiki_parser": {
+                            "animals_skill_entities_info": {},
+                            "entities_info": {
+                                "Italy": {
+                                    "conf": 90.0,
+                                    "country": [
+                                        [
+                                            "Q38",
+                                            "Italy"
+                                        ]
+                                    ],
+                                    "entity_label": "Italy",
+                                    "has quality": [
+                                        [
+                                            "Q3174312",
+                                            "free country"
+                                        ]
+                                    ],
+                                    "inception": [
+                                        [
+                                            "\"+1946-06-18^^T\"",
+                                            "18 June 1946"
+                                        ]
+                                    ],
+                                    "instance of": [
+                                        [
+                                            "Q179164",
+                                            "unitary state"
+                                        ],
+                                        [
+                                            "Q3624078",
+                                            "sovereign state"
+                                        ],
+                                        [
+                                            "Q51576574",
+                                            "Mediterranean country"
+                                        ],
+                                        [
+                                            "Q619610",
+                                            "social state"
+                                        ],
+                                        [
+                                            "Q6256",
+                                            "country"
+                                        ],
+                                        [
+                                            "Q7270",
+                                            "republic"
+                                        ]
+                                    ],
+                                    "located next to body of water": [
+                                        [
+                                            "Q13924",
+                                            "Adriatic Sea"
+                                        ],
+                                        [
+                                            "Q37495",
+                                            "Ionian Sea"
+                                        ],
+                                        [
+                                            "Q38882",
+                                            "Tyrrhenian Sea"
+                                        ],
+                                        [
+                                            "Q42820",
+                                            "Ligurian Sea"
+                                        ]
+                                    ],
+                                    "part of": [
+                                        [
+                                            "Q123209",
+                                            "Latin Union"
+                                        ]
+                                    ],
+                                    "plain_entity": "Q38",
+                                    "pos": 0,
+                                    "token_conf": 1.0,
+                                    "types_2hop": [
+                                        [
+                                            "Q1048835",
+                                            "political territorial entity"
+                                        ],
+                                        [
+                                            "Q1307214",
+                                            "form of government"
+                                        ],
+                                        [
+                                            "Q179164",
+                                            "unitary state"
+                                        ],
+                                        [
+                                            "Q183039",
+                                            "form of state"
+                                        ],
+                                        [
+                                            "Q3624078",
+                                            "sovereign state"
+                                        ],
+                                        [
+                                            "Q512187",
+                                            "federal republic"
+                                        ],
+                                        [
+                                            "Q51576574",
+                                            "Mediterranean country"
+                                        ],
+                                        [
+                                            "Q619610",
+                                            "social state"
+                                        ],
+                                        [
+                                            "Q6256",
+                                            "country"
+                                        ],
+                                        [
+                                            "Q7174",
+                                            "democracy"
+                                        ],
+                                        [
+                                            "Q7270",
+                                            "republic"
+                                        ],
+                                        [
+                                            "Q7275",
+                                            "state"
+                                        ]
+                                    ]
+                                }
+                            },
+                            "topic_skill_entities_info": {},
+                            "utt_num": 1,
+                            "wiki_skill_entities_info": {}
+                        }
+                    },
+                    "user": {
+                        "id": "b51789bee754450fb5a0c2f19b647d7e",
+                        "user_external_id": "ihoigy",
+                        "persona": {},
+                        "profile": {
+                            "name": null,
+                            "gender": null,
+                            "birthdate": null,
+                            "location": null,
+                            "home_coordinates": null,
+                            "work_coordinates": null,
+                            "occupation": null,
+                            "income_per_year": null
+                        },
+                        "attributes": {},
+                        "user_type": "human"
+                    }
+                }
+            ],
+            "bot_utterances": []
+        }
+    ],
+    "dff_travel_italy_skill_state_batch": [
+        {}
+    ],
+    "dff_shared_state_batch": [
+        {
+            "cross_states": {},
+            "cross_links": {}
+        }
+    ],
+    "entities_batch": [
+        {}
+    ],
+    "used_links_batch": [
+        {}
+    ],
+    "age_group_batch": [
+        "unknown"
+    ],
+    "disliked_skills_batch": [
+        []
+    ],
+    "clarification_request_flag_batch": [
+        false
+    ]
+}

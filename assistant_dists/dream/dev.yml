@@ -415,6 +415,12 @@ services:
       - "./services/infilling:/src"
     ports:
       - 8122:8122
+  dff-travel-italy-skill:
+    volumes:
+      - "./skills/dff_travel_italy_skill:/src"
+      - "./common:/src/common"
+    ports:
+      - 8129:8129
   dff-template-skill:
     volumes:
       - "./skills/dff_template_skill:/src"
